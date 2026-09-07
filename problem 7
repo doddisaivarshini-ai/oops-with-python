@@ -1,0 +1,17 @@
+class Parent:
+    def __init__(self):
+        self.name = "Rahul"
+        self.age = 18
+
+
+class Child(Parent):
+    def display(self):
+        print("Name:", self.name)
+        print("Age:", self.age)
+
+
+# Creating object
+c = Child()
+
+# Calling method
+c.display()

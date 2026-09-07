@@ -1,0 +1,11 @@
+class singer:
+  def sing(self):
+    print("singing")
+class dancer:
+  def dance(self):
+    print("dancing")
+class performer(singer,dancer):
+  pass
+p=performer()
+p.sing()
+p.dance()

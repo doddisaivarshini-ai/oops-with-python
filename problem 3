@@ -3,14 +3,9 @@ class Student:
         print("Name:", name)
         print("Age:", age)
         print("Course:", course)
-
-
-# Creating multiple objects
 s1 = Student()
 s2 = Student()
 s3 = Student()
-
-# Calling method using different objects
 s1.display("Rahul", 18, "CSE")
 s2.display("Priya", 19, "AIML")
 s3.display("Arun", 18, "ECE")

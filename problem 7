@@ -1,17 +1,17 @@
-class Parent:
+class Animal:
     def __init__(self):
-        self.name = "Rahul"
-        self.age = 18
+        self.name = "Dog"
+        self.age = 3
 
 
-class Child(Parent):
+class Dog(Animal):
     def display(self):
         print("Name:", self.name)
         print("Age:", self.age)
 
 
 # Creating object
-c = Child()
+d = Dog()
 
 # Calling method
-c.display()
+d.display()
